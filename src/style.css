@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(37, 32, 62);
+}
+
+div{
+    display: flex;
+    justify-content: center;
+}
+#linkdiv{
+    flex-direction: column;
+}
+
+#gh{
+    filter: invert(0.6);
+}
+#yt{
+    filter: invert(0.6);
+}
+#tw{
+    filter: invert(0.6);
+}
+#title,p{
+    color: antiquewhite;
+}
+#message,h3{
+    color: rgb(191, 183, 171);
+}
+h3{
+    font-size: small;
+}
+button{
+    width: 60%;
+    height: 150px;
+    opacity: 0.05;
+}
+button:hover{
+    transition: all 0.5s ease-in-out;
+    opacity: 0.15;
+}
